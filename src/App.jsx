@@ -1,6 +1,6 @@
 import React from 'react';
 import Register from './Register';
-import Login from './login'
+import Login from './Login'
 import Dashboard from './Dashboard';
 import Send from './Send'
 import Withdraw from './Withdraw'
