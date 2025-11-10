@@ -1,0 +1,31 @@
+.page-container { font-family: Inter, system-ui, -apple-system, 
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+     padding: 28px;
+      display:flex; 
+      justify-content:center
+     }
+.card { background: #fff;
+     padding:20px;
+      border-radius:12px;
+       box-shadow: 0 8px 30px rgba(17,24,39,0.06);
+        max-width:720px;
+         width:100% }
+.form-card { max-width:480px }
+.form { display:flex; flex-direction:column; gap:12px }
+.field { display:flex; flex-direction:column }
+.label { font-size:13px; color:#444; margin-bottom:6px }
+.input { padding:10px 12px; border-radius:8px; border:1px solid #e6e9ef }
+.input:focus { outline:none; box-shadow:0 6px 18px rgba(25,118,210,0.06); border-color:#bcd4ff }
+.actions { display:flex; gap:10px; align-items:center }
+.btn { padding:10px 14px; border-radius:8px; border:none; cursor:pointer; font-weight:600 }
+.btn.primary { background: linear-gradient(90deg,#1976d2,#4f83ff); color:#fff }
+.btn.link { background:transparent; color:#1976d2 }
+.link { color:#1976d2; text-decoration:none }
+.muted { color:#666 }
+.grid-actions { display:flex; gap:10px; flex-wrap:wrap; margin-top:12px }
+.links-grid { display:grid;
+     grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+      gap:10px;
+       margin-top:12px }
+@media (max-width:560px) { .page-container { padding: 16px } .card{ padding:14px } }
+body{background-color:white;}

@@ -1,0 +1,36 @@
+/* Withdraw form styles */
+
+.withdraw-page {
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  background: linear-gradient(180deg,#f7fbff,#f4f6fb);
+  min-height: 100vh;
+  padding: 36px 20px;
+}
+
+.withdraw-shell {
+  max-width: 520px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 14px;
+  padding: 24px;
+  box-shadow: 0 10px 30px rgba(22,35,66,0.06);
+}
+
+.withdraw-header h1 { margin: 0; font-size: 20px; }
+.withdraw-header .subtitle { margin: 6px 0 16px 0; color: #666; font-size: 13px }
+
+.withdraw-form { display: flex; flex-direction: column; gap: 12px }
+.field { display: flex; flex-direction: column }
+.label { font-size: 13px; color: #444; margin-bottom: 6px }
+.input { padding: 10px 12px; border-radius: 8px; border: 1px solid #e6e9ef; font-size: 15px }
+.input:focus { outline: none; box-shadow: 0 6px 18px rgba(25,118,210,0.06); border-color: #bcd4ff }
+
+.actions { display:flex; gap:10px; align-items:center; margin-top:8px }
+.btn { padding: 10px 14px; border-radius: 8px; border: none; cursor: pointer; font-weight:600 }
+.btn.primary { background: linear-gradient(90deg,#1976d2,#4f83ff); color: #fff }
+.btn.link { background: transparent; color:#1976d2; text-decoration:none; padding: 8px 10px; border-radius:8px }
+.btn[disabled] { opacity: 0.6; cursor: not-allowed }
+
+@media (max-width: 520px) {
+  .withdraw-shell { padding: 18px }
+}
